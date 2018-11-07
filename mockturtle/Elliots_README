@@ -1,0 +1,12 @@
+I needed to upgrade my version of gcc to get cmake to work with this library, so if you get errors trying to build this that may be the problem
+
+
+the test program I've been using is currently in 
+test/algorithms/mig_algebraic_rewriting  .. cause laziness
+
+building test:
+mkdir build
+cd build
+cmake -DMOCKTURTLE_TEST=ON ..
+make
+./test/run_tests
