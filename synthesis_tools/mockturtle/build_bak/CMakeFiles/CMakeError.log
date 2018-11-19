@@ -1,0 +1,69 @@
+Performing C++ SOURCE FILE Test HAS_WNO_gnu-anonymous-struct failed with the following output:
+Change Dir: /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6be00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6be00.dir/build.make CMakeFiles/cmTC_6be00.dir/build
+make[1]: Entering directory '/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6be00.dir/src.cxx.o
+/usr/bin/c++    -DHAS_WNO_gnu-anonymous-struct   -Wno-gnu-anonymous-struct -std=gnu++17 -o CMakeFiles/cmTC_6be00.dir/src.cxx.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-gnu-anonymous-struct'
+Linking CXX executable cmTC_6be00
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6be00.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_WNO_gnu-anonymous-struct    CMakeFiles/cmTC_6be00.dir/src.cxx.o  -o cmTC_6be00 
+make[1]: Leaving directory '/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WNO_nested-anon-types failed with the following output:
+Change Dir: /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f8cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f8cd.dir/build.make CMakeFiles/cmTC_6f8cd.dir/build
+make[1]: Entering directory '/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f8cd.dir/src.cxx.o
+/usr/bin/c++    -DHAS_WNO_nested-anon-types   -Wno-nested-anon-types -std=gnu++17 -o CMakeFiles/cmTC_6f8cd.dir/src.cxx.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-nested-anon-types'
+Linking CXX executable cmTC_6f8cd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f8cd.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_WNO_nested-anon-types    CMakeFiles/cmTC_6f8cd.dir/src.cxx.o  -o cmTC_6f8cd 
+make[1]: Leaving directory '/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2897f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2897f.dir/build.make CMakeFiles/cmTC_2897f.dir/build
+make[1]: Entering directory '/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2897f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=gnu++17 -o CMakeFiles/cmTC_2897f.dir/CheckSymbolExists.cxx.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_2897f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2897f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2897f.dir/CheckSymbolExists.cxx.o  -o cmTC_2897f 
+CMakeFiles/cmTC_2897f.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2897f.dir/build.make:86: recipe for target 'cmTC_2897f' failed
+make[1]: *** [cmTC_2897f] Error 1
+make[1]: Leaving directory '/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_2897f/fast' failed
+make: *** [cmTC_2897f/fast] Error 2
+
+File /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

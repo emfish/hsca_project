@@ -1,4 +1,4 @@
-# Install script for directory: /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle
+# Install script for directory: /mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/include/cmake_install.cmake")
-  include("/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/cmake_install.cmake")
-  include("/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/examples/cmake_install.cmake")
-  include("/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test/cmake_install.cmake")
+  include("/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/include/cmake_install.cmake")
+  include("/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/cmake_install.cmake")
+  include("/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/examples/cmake_install.cmake")
+  include("/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

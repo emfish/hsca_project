@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle
+CMAKE_SOURCE_DIR = "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build
+CMAKE_BINARY_DIR = "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build"
 
 # Include any dependencies generated for this target.
 include lib/abcsat/CMakeFiles/libabcsat.dir/depend.make
@@ -59,68 +59,68 @@ include lib/abcsat/CMakeFiles/libabcsat.dir/flags.make
 
 lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o: lib/abcsat/CMakeFiles/libabcsat.dir/flags.make
 lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o: ../lib/abcsat/AbcGlucose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/AbcGlucose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/AbcGlucose.cpp"
 
 lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libabcsat.dir/AbcGlucose.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/AbcGlucose.cpp > CMakeFiles/libabcsat.dir/AbcGlucose.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/AbcGlucose.cpp" > CMakeFiles/libabcsat.dir/AbcGlucose.cpp.i
 
 lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libabcsat.dir/AbcGlucose.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/AbcGlucose.cpp -o CMakeFiles/libabcsat.dir/AbcGlucose.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/AbcGlucose.cpp" -o CMakeFiles/libabcsat.dir/AbcGlucose.cpp.s
 
 lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.o: lib/abcsat/CMakeFiles/libabcsat.dir/flags.make
 lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.o: ../lib/abcsat/Glucose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/Glucose.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/Glucose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/Glucose.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/Glucose.cpp"
 
 lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libabcsat.dir/Glucose.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/Glucose.cpp > CMakeFiles/libabcsat.dir/Glucose.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/Glucose.cpp" > CMakeFiles/libabcsat.dir/Glucose.cpp.i
 
 lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libabcsat.dir/Glucose.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/Glucose.cpp -o CMakeFiles/libabcsat.dir/Glucose.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/Glucose.cpp" -o CMakeFiles/libabcsat.dir/Glucose.cpp.s
 
 lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o: lib/abcsat/CMakeFiles/libabcsat.dir/flags.make
 lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o: ../lib/abcsat/SimpSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/SimpSolver.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/SimpSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/SimpSolver.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/SimpSolver.cpp"
 
 lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libabcsat.dir/SimpSolver.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/SimpSolver.cpp > CMakeFiles/libabcsat.dir/SimpSolver.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/SimpSolver.cpp" > CMakeFiles/libabcsat.dir/SimpSolver.cpp.i
 
 lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libabcsat.dir/SimpSolver.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/SimpSolver.cpp -o CMakeFiles/libabcsat.dir/SimpSolver.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/SimpSolver.cpp" -o CMakeFiles/libabcsat.dir/SimpSolver.cpp.s
 
 lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.o: lib/abcsat/CMakeFiles/libabcsat.dir/flags.make
 lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.o: ../lib/abcsat/satSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/satSolver.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/satSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/satSolver.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/satSolver.cpp"
 
 lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libabcsat.dir/satSolver.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/satSolver.cpp > CMakeFiles/libabcsat.dir/satSolver.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/satSolver.cpp" > CMakeFiles/libabcsat.dir/satSolver.cpp.i
 
 lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libabcsat.dir/satSolver.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/satSolver.cpp -o CMakeFiles/libabcsat.dir/satSolver.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/satSolver.cpp" -o CMakeFiles/libabcsat.dir/satSolver.cpp.s
 
 lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.o: lib/abcsat/CMakeFiles/libabcsat.dir/flags.make
 lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.o: ../lib/abcsat/satStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/satStore.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/satStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libabcsat.dir/satStore.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/satStore.cpp"
 
 lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libabcsat.dir/satStore.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/satStore.cpp > CMakeFiles/libabcsat.dir/satStore.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/satStore.cpp" > CMakeFiles/libabcsat.dir/satStore.cpp.i
 
 lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libabcsat.dir/satStore.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat/satStore.cpp -o CMakeFiles/libabcsat.dir/satStore.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat/satStore.cpp" -o CMakeFiles/libabcsat.dir/satStore.cpp.s
 
 # Object files for target libabcsat
 libabcsat_OBJECTS = \
@@ -140,9 +140,9 @@ lib/abcsat/liblibabcsat.a: lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.o
 lib/abcsat/liblibabcsat.a: lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.o
 lib/abcsat/liblibabcsat.a: lib/abcsat/CMakeFiles/libabcsat.dir/build.make
 lib/abcsat/liblibabcsat.a: lib/abcsat/CMakeFiles/libabcsat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblibabcsat.a"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && $(CMAKE_COMMAND) -P CMakeFiles/libabcsat.dir/cmake_clean_target.cmake
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libabcsat.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblibabcsat.a"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && $(CMAKE_COMMAND) -P CMakeFiles/libabcsat.dir/cmake_clean_target.cmake
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libabcsat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/abcsat/CMakeFiles/libabcsat.dir/build: lib/abcsat/liblibabcsat.a
@@ -150,10 +150,10 @@ lib/abcsat/CMakeFiles/libabcsat.dir/build: lib/abcsat/liblibabcsat.a
 .PHONY : lib/abcsat/CMakeFiles/libabcsat.dir/build
 
 lib/abcsat/CMakeFiles/libabcsat.dir/clean:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat && $(CMAKE_COMMAND) -P CMakeFiles/libabcsat.dir/cmake_clean.cmake
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" && $(CMAKE_COMMAND) -P CMakeFiles/libabcsat.dir/cmake_clean.cmake
 .PHONY : lib/abcsat/CMakeFiles/libabcsat.dir/clean
 
 lib/abcsat/CMakeFiles/libabcsat.dir/depend:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat/CMakeFiles/libabcsat.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat/CMakeFiles/libabcsat.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : lib/abcsat/CMakeFiles/libabcsat.dir/depend
 

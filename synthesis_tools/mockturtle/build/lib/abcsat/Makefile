@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle
+CMAKE_SOURCE_DIR = "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build
+CMAKE_BINARY_DIR = "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat/CMakeFiles/progress.marks
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles 0
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat/CMakeFiles/progress.marks"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/clean
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/preinstall
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/preinstall
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/abcsat/CMakeFiles/libabcsat.dir/rule:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/CMakeFiles/libabcsat.dir/rule
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f CMakeFiles/Makefile2 lib/abcsat/CMakeFiles/libabcsat.dir/rule
 .PHONY : lib/abcsat/CMakeFiles/libabcsat.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ libabcsat: lib/abcsat/CMakeFiles/libabcsat.dir/rule
 
 # fast build rule for target.
 libabcsat/fast:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/build
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/build
 .PHONY : libabcsat/fast
 
 AbcGlucose.o: AbcGlucose.cpp.o
@@ -131,7 +131,7 @@ AbcGlucose.o: AbcGlucose.cpp.o
 
 # target to build an object file
 AbcGlucose.cpp.o:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o
 .PHONY : AbcGlucose.cpp.o
 
 AbcGlucose.i: AbcGlucose.cpp.i
@@ -140,7 +140,7 @@ AbcGlucose.i: AbcGlucose.cpp.i
 
 # target to preprocess a source file
 AbcGlucose.cpp.i:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.i
 .PHONY : AbcGlucose.cpp.i
 
 AbcGlucose.s: AbcGlucose.cpp.s
@@ -149,7 +149,7 @@ AbcGlucose.s: AbcGlucose.cpp.s
 
 # target to generate assembly for a file
 AbcGlucose.cpp.s:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.s
 .PHONY : AbcGlucose.cpp.s
 
 Glucose.o: Glucose.cpp.o
@@ -158,7 +158,7 @@ Glucose.o: Glucose.cpp.o
 
 # target to build an object file
 Glucose.cpp.o:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.o
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.o
 .PHONY : Glucose.cpp.o
 
 Glucose.i: Glucose.cpp.i
@@ -167,7 +167,7 @@ Glucose.i: Glucose.cpp.i
 
 # target to preprocess a source file
 Glucose.cpp.i:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.i
 .PHONY : Glucose.cpp.i
 
 Glucose.s: Glucose.cpp.s
@@ -176,7 +176,7 @@ Glucose.s: Glucose.cpp.s
 
 # target to generate assembly for a file
 Glucose.cpp.s:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/Glucose.cpp.s
 .PHONY : Glucose.cpp.s
 
 SimpSolver.o: SimpSolver.cpp.o
@@ -185,7 +185,7 @@ SimpSolver.o: SimpSolver.cpp.o
 
 # target to build an object file
 SimpSolver.cpp.o:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o
 .PHONY : SimpSolver.cpp.o
 
 SimpSolver.i: SimpSolver.cpp.i
@@ -194,7 +194,7 @@ SimpSolver.i: SimpSolver.cpp.i
 
 # target to preprocess a source file
 SimpSolver.cpp.i:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.i
 .PHONY : SimpSolver.cpp.i
 
 SimpSolver.s: SimpSolver.cpp.s
@@ -203,7 +203,7 @@ SimpSolver.s: SimpSolver.cpp.s
 
 # target to generate assembly for a file
 SimpSolver.cpp.s:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/SimpSolver.cpp.s
 .PHONY : SimpSolver.cpp.s
 
 satSolver.o: satSolver.cpp.o
@@ -212,7 +212,7 @@ satSolver.o: satSolver.cpp.o
 
 # target to build an object file
 satSolver.cpp.o:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.o
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.o
 .PHONY : satSolver.cpp.o
 
 satSolver.i: satSolver.cpp.i
@@ -221,7 +221,7 @@ satSolver.i: satSolver.cpp.i
 
 # target to preprocess a source file
 satSolver.cpp.i:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.i
 .PHONY : satSolver.cpp.i
 
 satSolver.s: satSolver.cpp.s
@@ -230,7 +230,7 @@ satSolver.s: satSolver.cpp.s
 
 # target to generate assembly for a file
 satSolver.cpp.s:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satSolver.cpp.s
 .PHONY : satSolver.cpp.s
 
 satStore.o: satStore.cpp.o
@@ -239,7 +239,7 @@ satStore.o: satStore.cpp.o
 
 # target to build an object file
 satStore.cpp.o:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.o
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.o
 .PHONY : satStore.cpp.o
 
 satStore.i: satStore.cpp.i
@@ -248,7 +248,7 @@ satStore.i: satStore.cpp.i
 
 # target to preprocess a source file
 satStore.cpp.i:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.i
 .PHONY : satStore.cpp.i
 
 satStore.s: satStore.cpp.s
@@ -257,7 +257,7 @@ satStore.s: satStore.cpp.s
 
 # target to generate assembly for a file
 satStore.cpp.s:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(MAKE) -f lib/abcsat/CMakeFiles/libabcsat.dir/build.make lib/abcsat/CMakeFiles/libabcsat.dir/satStore.cpp.s
 .PHONY : satStore.cpp.s
 
 # Help Target
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

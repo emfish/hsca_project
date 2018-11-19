@@ -1,4 +1,4 @@
-# Install script for directory: /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib/abcsat
+# Install script for directory: /mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib/abcsat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

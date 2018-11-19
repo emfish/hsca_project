@@ -1,0 +1,1 @@
+abc/abc -c "read ../networks/mult/$1; b; ps; b; rw -l; rw -lz; b; ps; cec; strash; write_aiger ../networks/mult/abc_output/$2"

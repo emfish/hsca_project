@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle
+CMAKE_SOURCE_DIR = "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build
+CMAKE_BINARY_DIR = "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build"
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/run_tests.dir/depend.make
@@ -59,172 +59,172 @@ include test/CMakeFiles/run_tests.dir/flags.make
 
 test/CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.o: ../test/algorithms/mig_algebraic_rewriting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/algorithms/mig_algebraic_rewriting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/algorithms/mig_algebraic_rewriting.cpp"
 
 test/CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/algorithms/mig_algebraic_rewriting.cpp > CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/algorithms/mig_algebraic_rewriting.cpp" > CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.i
 
 test/CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/algorithms/mig_algebraic_rewriting.cpp -o CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/algorithms/mig_algebraic_rewriting.cpp" -o CMakeFiles/run_tests.dir/algorithms/mig_algebraic_rewriting.cpp.s
 
 test/CMakeFiles/run_tests.dir/networks/aig.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/networks/aig.cpp.o: ../test/networks/aig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/run_tests.dir/networks/aig.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/aig.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/aig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/run_tests.dir/networks/aig.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/aig.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/aig.cpp"
 
 test/CMakeFiles/run_tests.dir/networks/aig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/networks/aig.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/aig.cpp > CMakeFiles/run_tests.dir/networks/aig.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/aig.cpp" > CMakeFiles/run_tests.dir/networks/aig.cpp.i
 
 test/CMakeFiles/run_tests.dir/networks/aig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/networks/aig.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/aig.cpp -o CMakeFiles/run_tests.dir/networks/aig.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/aig.cpp" -o CMakeFiles/run_tests.dir/networks/aig.cpp.s
 
 test/CMakeFiles/run_tests.dir/networks/klut.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/networks/klut.cpp.o: ../test/networks/klut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/run_tests.dir/networks/klut.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/klut.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/klut.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/run_tests.dir/networks/klut.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/klut.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/klut.cpp"
 
 test/CMakeFiles/run_tests.dir/networks/klut.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/networks/klut.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/klut.cpp > CMakeFiles/run_tests.dir/networks/klut.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/klut.cpp" > CMakeFiles/run_tests.dir/networks/klut.cpp.i
 
 test/CMakeFiles/run_tests.dir/networks/klut.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/networks/klut.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/klut.cpp -o CMakeFiles/run_tests.dir/networks/klut.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/klut.cpp" -o CMakeFiles/run_tests.dir/networks/klut.cpp.s
 
 test/CMakeFiles/run_tests.dir/networks/mig.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/networks/mig.cpp.o: ../test/networks/mig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/run_tests.dir/networks/mig.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/mig.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/mig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/run_tests.dir/networks/mig.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/mig.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/mig.cpp"
 
 test/CMakeFiles/run_tests.dir/networks/mig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/networks/mig.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/mig.cpp > CMakeFiles/run_tests.dir/networks/mig.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/mig.cpp" > CMakeFiles/run_tests.dir/networks/mig.cpp.i
 
 test/CMakeFiles/run_tests.dir/networks/mig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/networks/mig.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/mig.cpp -o CMakeFiles/run_tests.dir/networks/mig.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/mig.cpp" -o CMakeFiles/run_tests.dir/networks/mig.cpp.s
 
 test/CMakeFiles/run_tests.dir/networks/xag.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/networks/xag.cpp.o: ../test/networks/xag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/run_tests.dir/networks/xag.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/xag.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/xag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/run_tests.dir/networks/xag.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/xag.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/xag.cpp"
 
 test/CMakeFiles/run_tests.dir/networks/xag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/networks/xag.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/xag.cpp > CMakeFiles/run_tests.dir/networks/xag.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/xag.cpp" > CMakeFiles/run_tests.dir/networks/xag.cpp.i
 
 test/CMakeFiles/run_tests.dir/networks/xag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/networks/xag.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/xag.cpp -o CMakeFiles/run_tests.dir/networks/xag.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/xag.cpp" -o CMakeFiles/run_tests.dir/networks/xag.cpp.s
 
 test/CMakeFiles/run_tests.dir/networks/xmg.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/networks/xmg.cpp.o: ../test/networks/xmg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/run_tests.dir/networks/xmg.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/xmg.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/xmg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/run_tests.dir/networks/xmg.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/networks/xmg.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/xmg.cpp"
 
 test/CMakeFiles/run_tests.dir/networks/xmg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/networks/xmg.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/xmg.cpp > CMakeFiles/run_tests.dir/networks/xmg.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/xmg.cpp" > CMakeFiles/run_tests.dir/networks/xmg.cpp.i
 
 test/CMakeFiles/run_tests.dir/networks/xmg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/networks/xmg.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/networks/xmg.cpp -o CMakeFiles/run_tests.dir/networks/xmg.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/networks/xmg.cpp" -o CMakeFiles/run_tests.dir/networks/xmg.cpp.s
 
 test/CMakeFiles/run_tests.dir/test.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/test.cpp.o: ../test/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/CMakeFiles/run_tests.dir/test.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/CMakeFiles/run_tests.dir/test.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/test.cpp"
 
 test/CMakeFiles/run_tests.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/test.cpp > CMakeFiles/run_tests.dir/test.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/test.cpp" > CMakeFiles/run_tests.dir/test.cpp.i
 
 test/CMakeFiles/run_tests.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/test.cpp -o CMakeFiles/run_tests.dir/test.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/test.cpp" -o CMakeFiles/run_tests.dir/test.cpp.s
 
 test/CMakeFiles/run_tests.dir/traits.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/traits.cpp.o: ../test/traits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/CMakeFiles/run_tests.dir/traits.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/traits.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/traits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/CMakeFiles/run_tests.dir/traits.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/traits.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/traits.cpp"
 
 test/CMakeFiles/run_tests.dir/traits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/traits.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/traits.cpp > CMakeFiles/run_tests.dir/traits.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/traits.cpp" > CMakeFiles/run_tests.dir/traits.cpp.i
 
 test/CMakeFiles/run_tests.dir/traits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/traits.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/traits.cpp -o CMakeFiles/run_tests.dir/traits.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/traits.cpp" -o CMakeFiles/run_tests.dir/traits.cpp.s
 
 test/CMakeFiles/run_tests.dir/utils/cuts.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/utils/cuts.cpp.o: ../test/utils/cuts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test/CMakeFiles/run_tests.dir/utils/cuts.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/cuts.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/cuts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test/CMakeFiles/run_tests.dir/utils/cuts.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/cuts.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/cuts.cpp"
 
 test/CMakeFiles/run_tests.dir/utils/cuts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/utils/cuts.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/cuts.cpp > CMakeFiles/run_tests.dir/utils/cuts.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/cuts.cpp" > CMakeFiles/run_tests.dir/utils/cuts.cpp.i
 
 test/CMakeFiles/run_tests.dir/utils/cuts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/utils/cuts.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/cuts.cpp -o CMakeFiles/run_tests.dir/utils/cuts.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/cuts.cpp" -o CMakeFiles/run_tests.dir/utils/cuts.cpp.s
 
 test/CMakeFiles/run_tests.dir/utils/dont_cares.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/utils/dont_cares.cpp.o: ../test/utils/dont_cares.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test/CMakeFiles/run_tests.dir/utils/dont_cares.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/dont_cares.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/dont_cares.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test/CMakeFiles/run_tests.dir/utils/dont_cares.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/dont_cares.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/dont_cares.cpp"
 
 test/CMakeFiles/run_tests.dir/utils/dont_cares.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/utils/dont_cares.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/dont_cares.cpp > CMakeFiles/run_tests.dir/utils/dont_cares.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/dont_cares.cpp" > CMakeFiles/run_tests.dir/utils/dont_cares.cpp.i
 
 test/CMakeFiles/run_tests.dir/utils/dont_cares.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/utils/dont_cares.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/dont_cares.cpp -o CMakeFiles/run_tests.dir/utils/dont_cares.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/dont_cares.cpp" -o CMakeFiles/run_tests.dir/utils/dont_cares.cpp.s
 
 test/CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.o: ../test/utils/mixed_radix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object test/CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/mixed_radix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object test/CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/mixed_radix.cpp"
 
 test/CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/mixed_radix.cpp > CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/mixed_radix.cpp" > CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.i
 
 test/CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/mixed_radix.cpp -o CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/mixed_radix.cpp" -o CMakeFiles/run_tests.dir/utils/mixed_radix.cpp.s
 
 test/CMakeFiles/run_tests.dir/utils/node_map.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/utils/node_map.cpp.o: ../test/utils/node_map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object test/CMakeFiles/run_tests.dir/utils/node_map.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/node_map.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/node_map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object test/CMakeFiles/run_tests.dir/utils/node_map.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/node_map.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/node_map.cpp"
 
 test/CMakeFiles/run_tests.dir/utils/node_map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/utils/node_map.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/node_map.cpp > CMakeFiles/run_tests.dir/utils/node_map.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/node_map.cpp" > CMakeFiles/run_tests.dir/utils/node_map.cpp.i
 
 test/CMakeFiles/run_tests.dir/utils/node_map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/utils/node_map.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/node_map.cpp -o CMakeFiles/run_tests.dir/utils/node_map.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/node_map.cpp" -o CMakeFiles/run_tests.dir/utils/node_map.cpp.s
 
 test/CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.o: test/CMakeFiles/run_tests.dir/flags.make
 test/CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.o: ../test/utils/truth_table_cache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object test/CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.o"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.o -c /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/truth_table_cache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object test/CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.o"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.o -c "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/truth_table_cache.cpp"
 
 test/CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.i"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/truth_table_cache.cpp > CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.i
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/truth_table_cache.cpp" > CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.i
 
 test/CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.s"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test/utils/truth_table_cache.cpp -o CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.s
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test/utils/truth_table_cache.cpp" -o CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.s
 
 # Object files for target run_tests
 run_tests_OBJECTS = \
@@ -261,8 +261,8 @@ test/run_tests: test/CMakeFiles/run_tests.dir/utils/truth_table_cache.cpp.o
 test/run_tests: test/CMakeFiles/run_tests.dir/build.make
 test/run_tests: lib/abcsat/liblibabcsat.a
 test/run_tests: test/CMakeFiles/run_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable run_tests"
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable run_tests"
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/run_tests.dir/build: test/run_tests
@@ -270,10 +270,10 @@ test/CMakeFiles/run_tests.dir/build: test/run_tests
 .PHONY : test/CMakeFiles/run_tests.dir/build
 
 test/CMakeFiles/run_tests.dir/clean:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests.dir/cmake_clean.cmake
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" && $(CMAKE_COMMAND) -P CMakeFiles/run_tests.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_tests.dir/clean
 
 test/CMakeFiles/run_tests.dir/depend:
-	cd /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/test /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/test/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/test" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test" "/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/test/CMakeFiles/run_tests.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_tests.dir/depend
 

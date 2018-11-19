@@ -1,4 +1,4 @@
-# Install script for directory: /home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/lib
+# Install script for directory: /mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/elliot/UTAustin/EE382-HSCA/HSCA-project/mockturtle/build/lib/abcsat/cmake_install.cmake")
+  include("/mnt/c/Users/Willy/Documents/schoolwork/UT/EE 382N - High Speed Arithmetic/hsca_project/synthesis_tools/mockturtle/build/lib/abcsat/cmake_install.cmake")
 
 endif()
 
