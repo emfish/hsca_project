@@ -1,0 +1,26 @@
+RCAaddr8:
+Input MIG Network - depth: 16 num-gates: 52
+Rewritten Network - depth: 7 num-gates: 97
+Rewritten Network - depth: 7 num-gates: 97
+Rewritten Network - depth: 7 num-gates: 97
+RCAaddr16:
+Input MIG Network - depth: 32 num-gates: 205
+Rewritten Network - depth: 8 num-gates: 358
+Rewritten Network - depth: 8 num-gates: 364
+Rewritten Network - depth: 8 num-gates: 364
+RCAaddr32:
+Input MIG Network - depth: 64 num-gates: 584
+Rewritten Network - depth: 10 num-gates: 973
+Rewritten Network - depth: 10 num-gates: 1003
+Rewritten Network - depth: 10 num-gates: 1003
+RCAaddr64:
+Input MIG Network - depth: 128 num-gates: 1447
+Rewritten Network - depth: 11 num-gates: 2552
+Rewritten Network - depth: 11 num-gates: 2593
+Rewritten Network - depth: 11 num-gates: 2593
+RCAaddr64:
+Input MIG Network - depth: 128 num-gates: 3037
+Rewritten Network - depth: 12 num-gates: 4045
+Rewritten Network - depth: 11 num-gates: 4183
+Rewritten Network - depth: 11 num-gates: 4183
+Addr test complete

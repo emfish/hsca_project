@@ -1,0 +1,16 @@
+abc_mult_8:
+Input MIG Network - depth: 53 num-gates: 424
+Rewritten Network - depth: 45 num-gates: 580
+Rewritten Network - depth: 44 num-gates: 707
+Rewritten Network - depth: 44 num-gates: 750
+abc_mult_16:
+Input MIG Network - depth: 117 num-gates: 2622
+Rewritten Network - depth: 101 num-gates: 3380
+Rewritten Network - depth: 100 num-gates: 3846
+Rewritten Network - depth: 100 num-gates: 3993
+abc_mult_32:
+Input MIG Network - depth: 245 num-gates: 11833
+Rewritten Network - depth: 212 num-gates: 15463
+Rewritten Network - depth: 211 num-gates: 17551
+Rewritten Network - depth: 211 num-gates: 17818
+Mult test complete

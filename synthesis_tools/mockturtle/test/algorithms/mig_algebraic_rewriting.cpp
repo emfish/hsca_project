@@ -1,5 +1,6 @@
 #include <catch.hpp>
 
+#include <stdio.h>
 #include <mockturtle/traits.hpp>
 #include <mockturtle/algorithms/mig_algebraic_rewriting.hpp>
 #include <mockturtle/algorithms/cut_enumeration.hpp>
@@ -8,6 +9,7 @@
 #include <mockturtle/networks/xag.hpp>
 #include <mockturtle/networks/xmg.hpp>
 #include <mockturtle/io/aiger_reader.hpp>
+#include <mockturtle/io/verilog_reader.hpp>
 #include <mockturtle/io/write_bench.hpp>
 #include <mockturtle/io/write_verilog.hpp>
 #include <mockturtle/views/depth_view.hpp>
@@ -16,8 +18,10 @@
 #include <bits/stdc++.h>
 
 using namespace mockturtle;
+#define RW_ITERATIONS 3
 
-TEST_CASE( "MIG depth optimization with associativity", "[mig_algebraic_rewriting]" )
+
+TEST_CASE( "test1", "[mig_algebraic_rewriting]" )
 {
 
   // Recognized network types
@@ -44,28 +48,102 @@ TEST_CASE( "MIG depth optimization with associativity", "[mig_algebraic_rewritin
   testnets.push_back("RCAaddr16");
   testnets.push_back("RCAaddr32");
   testnets.push_back("RCAaddr64");
+  testnets.push_back("RCAaddr64");
+
+
+  remove((bAddrDir + "results.txt").c_str());
+  FILE * fp = fopen ((bAddrDir + "results.txt").c_str(),"w");
+  // rewriting - optimization
+  for (int i = 0; i < (int)testnets.size(); i++){
+
+ 
+    // read input network
+    lorina::read_aiger( bAddrDir + testnets[i] + ".aig", mockturtle::aiger_reader( mig ) );
+   
+    depth_view depth_mig{mig};
+    fprintf (fp, "%s:\n",testnets[i].c_str());
+    fprintf(fp, "Input MIG Network - depth: %d num-gates: %d\n", depth_mig.depth(), mig.num_gates() ); 
+    std::cout << "-------- mig algebraic depth rewriting: " + testnets[i] + " --------- " << std::endl;
+    std::cout << "MIG - depth: " << depth_mig.depth() << " num-gates: " << mig.num_gates()  << std::endl; 
+    
+    //const auto cuts = cut_enumeration( aig );  
+    //aig.foreach_node( [&]( auto node ) {
+    //  std::cout << cuts.cuts( aig.node_to_index( node ) ) << "\n";
+    //} );
+    
+    mig_algebraic_depth_rewriting_params ps; 
+    ps.strategy = mig_algebraic_depth_rewriting_params::aggressive;
+    //ps.overhead = 10.0;
+    for (int i = 0; i < RW_ITERATIONS; i++){
+    // mig depth rewriting 
+    depth_view depth_mig{mig};
+    mig_algebraic_depth_rewriting( depth_mig, ps );
+      if (i < 5 || (i % 5 == 0))
+        fprintf(fp, "Rewritten Network - depth: %d num-gates: %d\n", depth_mig.depth(), mig.num_gates() ); 
+        std::cout << "MIG - depth - " << i << ": " << depth_mig.depth() << " num-gates: " << mig.num_gates()  << std::endl; 
+    }		
+    // Output network to file
+    std::ofstream outfile;
+    outfile.open(bAddrDir + testnets[i] + "_mig_rw.v");
+
+    std::ostringstream out;
+    write_verilog( mig, out );
+    outfile << out.str() << std::endl;
+			
+  }
+  fprintf(fp, "Addr test complete" ); 
+  fclose(fp);
+  printf("Test Complete\n");
+}
+
+TEST_CASE( "test2", "[mig_algebraic_rewriting]" )
+{
+  // Recognized network types
+  aig_network aig;
+  mig_network mig;
+  xag_network xag;
+  xmg_network xmg;
+
+  // Input networks
+  std::string bAddrDir = "../../../networks/mult/abcmult/";
+  std::vector <std::string> testnets;
+  testnets.push_back("abc_mult_8");
+  testnets.push_back("abc_mult_16");
+  testnets.push_back("abc_mult_32");
+  
+  //Output file:
+  FILE * fp = fopen ((bAddrDir + "results.txt").c_str(),"w");
 
   // rewriting - optimization
   for (int i = 0; i < (int)testnets.size(); i++){
 
     // read input network
     lorina::read_aiger( bAddrDir + testnets[i] + ".aig", mockturtle::aiger_reader( mig ) );
+    
     depth_view depth_mig{mig};
     
+    fprintf (fp, "%s:\n",testnets[i].c_str());
+    fprintf(fp, "Input MIG Network - depth: %d num-gates: %d\n", depth_mig.depth(), mig.num_gates() ); 
     std::cout << "-------- mig algebraic depth rewriting: " + testnets[i] + " --------- " << std::endl;
     std::cout << "MIG - depth: " << depth_mig.depth() << " num-gates: " << mig.num_gates()  << std::endl; 
     
-    /*const auto cuts = cut_enumeration( aig );  
-    aig.foreach_node( [&]( auto node ) {
-      std::cout << cuts.cuts( aig.node_to_index( node ) ) << "\n";
-    } );*/
+    //const auto cuts = cut_enumeration( aig );  
+    //aig.foreach_node( [&]( auto node ) {
+    //  std::cout << cuts.cuts( aig.node_to_index( node ) ) << "\n";
+    //} );
     
     // mig depth rewriting 
     mig_algebraic_depth_rewriting_params ps; 
     ps.strategy = mig_algebraic_depth_rewriting_params::aggressive;
-    //ps.overhead = 10.0;
-    mig_algebraic_depth_rewriting( depth_mig, ps );
-    std::cout << "MIG - depth: " << depth_mig.depth() << " num-gates: " << mig.num_gates()  << std::endl; 
+    ps.overhead = 1.0;
+    for (int i = 0; i < RW_ITERATIONS; i++){
+    // mig depth rewriting 
+      depth_view depth_mig{mig};
+      mig_algebraic_depth_rewriting( depth_mig, ps );
+      if (i < 5 || (i % 5 == 0))
+        fprintf(fp, "Rewritten Network - depth: %d num-gates: %d\n", depth_mig.depth(), mig.num_gates() ); 
+        std::cout << "MIG - depth - " << i << ": " << depth_mig.depth() << " num-gates: " << mig.num_gates()  << std::endl; 
+    }		
     		
     // Output network to file
     std::ofstream outfile;
@@ -76,56 +154,11 @@ TEST_CASE( "MIG depth optimization with associativity", "[mig_algebraic_rewritin
     outfile << out.str() << std::endl;
 			
   }
+  fprintf(fp, "Mult test complete" ); 
+  fclose(fp);
   printf("Test Complete\n");
-}
-
-TEST_CASE( "MIG depth optimization with complemented associativity", "[mig_algebraic_rewriting]" )
-{
-  mig_network mig;
-
-  const auto a = mig.create_pi();
-  const auto b = mig.create_pi();
-  const auto c = mig.create_pi();
-  const auto d = mig.create_pi();
-
-  const auto f1 = mig.create_and( a, b );
-  const auto f2 = mig.create_and( f1, c );
-  const auto f3 = mig.create_or( f2, d );
-
-  mig.create_po( f3 );
-
-  depth_view depth_mig{mig};
-
-  CHECK( depth_mig.depth() == 3 );
-
-  mig_algebraic_depth_rewriting( depth_mig );
-
-  CHECK( depth_mig.depth() == 2 );
 }
 
 TEST_CASE( "MIG depth optimization with distributivity", "[mig_algebraic_rewriting]" )
 {
-  mig_network mig;
-
-  const auto a = mig.create_pi();
-  const auto b = mig.create_pi();
-  const auto c = mig.create_pi();
-  const auto d = mig.create_pi();
-  const auto e = mig.create_pi();
-  const auto f = mig.create_pi();
-  const auto g = mig.create_pi();
-
-  const auto f1 = mig.create_maj( e, f, g );
-  const auto f2 = mig.create_maj( c, d, f1 );
-  const auto f3 = mig.create_maj( a, b, f2 );
-
-  mig.create_po( f3 );
-
-  depth_view depth_mig{mig};
-
-  CHECK( depth_mig.depth() == 3 );
-
-  mig_algebraic_depth_rewriting( depth_mig );
-
-  CHECK( depth_mig.depth() == 2 );
 }
